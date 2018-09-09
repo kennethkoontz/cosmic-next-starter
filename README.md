@@ -2,7 +2,7 @@
 A simple starter for building SEO friendly react apps that leverage [CosmicJS](https://cosmicjs.com) as the backend and CMS.
 
 Sass is used for styles.
-Api requests are made using the [CosmicJS](https://www.npmjs.com/package/cosmicjs) NPM package.
+Api requests are made using the [CosmicJS NPM package](https://www.npmjs.com/package/cosmicjs).
 
 ## Getting Started
 - Clone and `npm install`
@@ -18,7 +18,7 @@ COSMIC_READ_KEY=XXXX
 
 ## Deploying to now
 
-To deploy to now just add keys via your console:
+To deploy to now just add keys via your console before running `now`:
 ```sh
 $ now secret add COSMIC_BUCKET XXXX
 $ now secret add COSMIC_WRITE_KEY XXXX
