@@ -1,0 +1,23 @@
+{
+  "name": "cosmic-next-start",
+  "version": "1.0.0",
+  "description": "A Cosmic.io based Next.js starter",
+  "main": "./src/index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "kenneth.koontz@gmail.com",
+  "license": "ISC",
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "cosmicjs": "^3.2.12",
+    "isomorphic-unfetch": "^2.1.1",
+    "next": "^6.1.2",
+    "node-sass": "^4.9.3",
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0"
+  }
+}

@@ -1,0 +1,6 @@
+## Environment Variables
+```
+COSMIC_BUCKET=XXXX
+COSMIC_WRITE_KEY=XXXX
+COSMIC_READ_KEY=XXXX
+```
