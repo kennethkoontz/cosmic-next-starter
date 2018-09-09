@@ -1,0 +1,7 @@
+{
+  "env": {
+    "COSMIC_BUCKET": "@cosmic_bucket",
+    "COSMIC_READ_KEY": "@cosmic_read_key",
+    "COSMIC_WRITE_KEY": "@cosmic_write_key"
+  }
+}
