@@ -15,8 +15,6 @@ const Index = ({data}) => (
 );
 
 Index.getInitialProps = async () => {
-  console.log('here');
-  console.log(process.env.COSMIC_WRITE_KEY);
   const api = Cosmic();
   const bucket = api.bucket({
     slug: process.env.COSMIC_BUCKET,
@@ -24,7 +22,6 @@ Index.getInitialProps = async () => {
     write_key: process.env.COSMIC_WRITE_KEY
   });
   const data = await bucket.getBucket();
-  console.log(data);
   return {data};
 }
 
