@@ -15,6 +15,10 @@ const Index = ({data}) => (
 );
 
 Index.getInitialProps = async () => {
+  if (!process.env.COSMIC_BUCKET) {
+    return {}
+  }
+
   const api = Cosmic();
   const bucket = api.bucket({
     slug: process.env.COSMIC_BUCKET,
