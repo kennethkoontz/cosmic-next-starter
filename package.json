@@ -3,14 +3,18 @@
   "version": "1.0.0",
   "description": "A Cosmic.io based Next.js starter",
   "main": "./src/index.js",
+  "author": "kenneth.koontz@gmail.com",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 versions",
+    "> 1%"
+  ],
   "scripts": {
     "dev": "next",
     "build": "next build",
     "start": "next start",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "kenneth.koontz@gmail.com",
-  "license": "ISC",
   "dependencies": {
     "@zeit/next-sass": "^0.2.0",
     "cosmicjs": "^3.2.12",
